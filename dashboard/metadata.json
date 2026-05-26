@@ -1,0 +1,5 @@
+{
+  "display_name": "Aave V3 HF Band Manager",
+  "description": "Lending dashboard for wstETH collateral and USDC debt on Polygon, tracking health-factor band actions.",
+  "icon": "🏦"
+}

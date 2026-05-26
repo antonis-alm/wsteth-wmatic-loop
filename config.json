@@ -1,0 +1,41 @@
+{
+  "chain": "polygon",
+  "token_funding": [
+    {
+      "symbol": "wstETH",
+      "address": "0x03b54a6e9a984069379fae1a4fc4dbae93b3bccd",
+      "chain": "polygon",
+      "amount": "10",
+      "amount_type": "usd"
+    },
+    {
+      "symbol": "USDC",
+      "address": "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359",
+      "chain": "polygon",
+      "amount": "10",
+      "amount_type": "usd"
+    }
+  ],
+  "collateral_token": "wstETH",
+  "borrow_token": "USDC",
+  "lending_protocol": "aave_v3",
+  "lending_market": "aave_v3_polygon",
+  "interest_rate_mode": "variable",
+  "initial_supply_amount": "0.0038",
+  "hf_lower": "1.2",
+  "hf_upper": "1.4",
+  "target_hf_after_borrow": "1.3",
+  "target_hf_after_repay": "1.3",
+  "hf_safety_buffer": "0.03",
+  "rebalance_cooldown_seconds": 300,
+  "min_borrow_adjustment": "1",
+  "min_repay_adjustment": "1",
+  "max_borrow_step": "5",
+  "max_repay_step": "5",
+  "emergency_hf_floor": "1.15",
+  "force_action": "",
+  "anvil_funding": {
+    "wstETH": 5,
+    "USDC": 10000
+  }
+}
